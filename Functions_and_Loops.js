@@ -1,3 +1,5 @@
+//First homework
+
 //1 задача
 for (i = 0; i <= 10; i++){
     console.log(i)
@@ -5,7 +7,7 @@ for (i = 0; i <= 10; i++){
 
 //2 задача
 let sum = 0;
-let i = 0;
+
 while (i <= 100) {
     sum += i;
     i++;
@@ -27,7 +29,7 @@ for (let i = 2; i <= n; i += 2) {
 }
 
 //5 задача
-let n = 10;
+n = 10;
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= n; j++) {
     console.log(i + ' x ' + j + ' = ' + (i * j));
@@ -35,7 +37,7 @@ for (let i = 1; i <= n; i++) {
 }
 
 //6 задача
-let n = 7;
+n = 7;
 let factorial = 1;
 for (let i = 1; i <= n; i++) {
 
@@ -45,7 +47,7 @@ console.log(factorial)
 
 //7 задача
 
-let n = 10;
+n = 10;
 let fibonacci = [0, 1];
 
 for (let i = 2; i < n; i++) {
@@ -91,3 +93,4 @@ m=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for (i = 0; i < m.length; i++)
     sum += m[i]
 console.log(sum)
+
