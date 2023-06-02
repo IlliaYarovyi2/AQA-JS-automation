@@ -1,13 +1,14 @@
 //First homework
 
 //1 задача
+let i = 1;
 for (i = 0; i <= 10; i++){
     console.log(i)
 }
 
 //2 задача
 let sum = 0;
-
+i = 1;
 while (i <= 100) {
     sum += i;
     i++;
@@ -15,7 +16,7 @@ while (i <= 100) {
 console.log(sum);
 
 //3 задача
-let i = 10;
+i = 10;
 while (i >= 1){
 
     console.log(i--)
